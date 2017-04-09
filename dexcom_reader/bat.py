@@ -1,7 +1,8 @@
 
 # turn off dexcom charging
+import sys
+from readdata import Dexcom
 
-from read_data import Dexcom
 class DexcomBattery(Dexcom):
     @classmethod
     def LocateAndDownload(cls):
